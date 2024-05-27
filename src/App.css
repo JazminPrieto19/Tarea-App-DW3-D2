@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #f5e9ef; 
+    font-size: 5em; 
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
